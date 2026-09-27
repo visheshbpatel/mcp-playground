@@ -1,0 +1,20 @@
+[project]
+name = "mcp-playground"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastmcp>=4.0.9",
+    "langchain>=1.4.2",
+    "langchain-mcp-adapters>=0.3.1",
+    "langchain-openai>=1.6.6",
+    "mcp>=2.2.0",
+    "python-dotenv>=1.2.3",
+    "streamlit>=1.64.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "03-the-how/04-mcl-clients",
+]
