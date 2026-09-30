@@ -1,17 +1,73 @@
 # MCP Playground
 
-A learning repository for exploring **Model Context Protocol (MCP)** and understanding how MCP works under the hood.
+A hands-on repository for exploring and building with the **Model Context Protocol (MCP)**.
 
-This repo contains notes, examples, and experiments covering MCP concepts, architecture, lifecycle, tools, resources, and more.
+The repository covers MCP from its fundamentals to practical implementations, including protocol architecture, lifecycle, transports, servers, clients, tools, resources, and remote integrations.
 
-## Topics
+## Contents
 
-* Why MCP
-* What is MCP
-* MCP Architecture
-* MCP Lifecycle
-* Tools & Resources
-* Client & Server
-* Practical Examples
+### 01: The Why
 
-Built while learning and experimenting with MCP.
+Understanding the problems MCP addresses and the need for a standardized protocol for connecting AI applications with external tools and data.
+
+### 02: The What
+
+Core MCP concepts and protocol architecture:
+
+- MCP Architecture
+- Host, Client & Server
+- Tools, Resources & Prompts
+- JSON-RPC 2.0
+- Data & Transport Layers
+- STDIO & HTTP
+- MCP Lifecycle
+- Initialization & Capability Negotiation
+- Operation & Shutdown
+- Errors, Cancellation & Progress
+
+### 03: The How
+
+Practical MCP implementations:
+
+- MCP server development with FastMCP
+- Local MCP servers
+- Remote MCP servers
+- Expense Tracker MCP
+- MCP Math Server
+- MCP client development
+- Multi-server client connections
+- Streamable HTTP & STDIO
+- LangChain MCP integration
+- Streamlit MCP chatbot
+
+## Stack
+
+- Python
+- FastMCP
+- MCP SDK
+- LangChain
+- LangChain MCP Adapters
+- OpenAI-compatible LLMs
+- Streamlit
+- uv
+
+## Repository Flow
+
+```text
+WHY
+ │
+ ▼
+WHAT
+ │
+ ▼
+HOW
+ │
+ ├── Local MCP Servers
+ ├── Remote MCP Servers
+ └── MCP Clients
+````
+
+## Resource
+
+MCP Playlist: [https://www.youtube.com/playlist?list=PLKnIA16_Rmva_oZ9F4ayUu9qcWgF7Fyc0](https://www.youtube.com/playlist?list=PLKnIA16_Rmva_oZ9F4ayUu9qcWgF7Fyc0)
+
